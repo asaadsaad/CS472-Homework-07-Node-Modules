@@ -3,7 +3,7 @@
 ## Exercise 01
 Create a file `data.json` which contains the following JSON structure:
 ```json
-[{"id": 1, "name": "Asaad Saad"}, {"id": 2, "name": "Theo Saad"}]
+[{"id": "tfHxMIRS-g7pX1rRLVzm0", "name": "Asaad Saad"}, {"id": "YdjFznHRgOi_UzYbXbLO0", "name": "Theo Saad"}]
 ```
 * Create a class `Names`, once instantiated, it reads the JSON file synchronously, and assigns its content to a private property `data`.
 * Create a method `persist()` to write back the instance property `data` back into the `data.json` file, and emit an event `data_saved` to confirm that the file is written successfully.  
