@@ -21,7 +21,7 @@ Test your code:
 ## Exercise 02
 Create an **asynchronous** function `checkSystem()` that returns a promise and checks if the OS memory size is at least 8 GB and the processor has at least 4 cores (use `os` core module, which has the following methods: `cpus()` and `totalmem()`).  
 
-* If the system doesn't have enough memory we should reject with a message: `You need at least 4 GB of RAM`
+* If the system doesn't have enough memory we should reject with a message: `You need at least 8 GB of RAM`
 * If the system doesn't have at least 4 cores, reject with this message: `Processor must have at least 4 cores`
 * If the system has enough specs, resolve with the following message `System is checked successfully.`  
   
