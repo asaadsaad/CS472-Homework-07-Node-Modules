@@ -37,9 +37,13 @@ Note: 1 KB is 1024 bytes, 1 MB is 1024 KB, 1 GB is 1024 MB.
   
 Remember to install the definately typed (DT) package as a development dependency if the package does not provide types.
 
-## Exercise 04
-Environment variables hold secret keys and sensitive configuration data that we prefer to keep in a safe place. They are usually accessed from the `process.env` global object.
-  
+## Exercise 04 (Optional)
+Environment variables hold secret keys and sensitive configuration data that we prefer to keep in a safe place. They are usually accessed from the `process.env` global object. To activate your environment varitables, create a file `.env` at your root and fill it out with your key/value pairs, and then pass it to the `tsx` command with the following command:
+```json
+"scripts": {
+    "start": "tsx watch --env-file=.env ./mycode.ts"
+  }
+```
 Update the previous exercise to send you an email with the following body:
 ```
 From: Thumbnail Generator App
@@ -50,5 +54,4 @@ The input folder has 31 thumbnails.
 The output folder has 31 thumbnails.
 Generated 0 new thumbnails. 
 ```
-Use the [dotenv](https://www.npmjs.com/package/dotenv) module to save environment variables.  
 Use the [@sendgrid/mail](https://www.npmjs.com/package/@sendgrid/mail) module and integrate it with your application to send the status email.
