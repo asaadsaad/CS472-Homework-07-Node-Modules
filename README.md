@@ -54,4 +54,4 @@ The input folder has 31 thumbnails.
 The output folder has 31 thumbnails.
 Generated 0 new thumbnails. 
 ```
-Use the [@sendgrid/mail](https://www.npmjs.com/package/@sendgrid/mail) module and integrate it with your application to send the status email.
+Use the [nodemailer](https://www.npmjs.com/package/nodemailer) module and integrate it with your application to send the status email by using SES transport from AWS.
